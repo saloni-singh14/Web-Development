@@ -27,7 +27,6 @@ p:first-letter {
   h1{
     margin-top: 50px; 
   }
- 
   
    a:link{
     color:#FF90C4;
@@ -46,7 +45,24 @@ p:first-letter {
    
     margin-left: 20px; 
   }
- 
+  .wrapper{
+    position: fixed;
+    column-count: 1;
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    top: 300px;
+    
+  }
+  .button{
+    padding: 20px;
+    margin-left: 50px;
+    color:#FF90C4;
+  }
+ .content{
+   position: absolute;
+   left: 500px;
+   top: 300px;
+ }
   h2{
     
     margin-left: 20px; 
