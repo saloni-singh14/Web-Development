@@ -1,0 +1,119 @@
+html{
+    font-family: 'Lato', sans-serif;
+}
+::-moz-selection { color: red; }
+::selection {color: red; }
+p:first-letter {
+    
+    font-size: 2em;
+    font-weight: 500;
+}
+    header {
+      
+    position: relative;
+    vertical-align: middle;
+  text-align: center;
+  
+  color: black;
+  border: 5px solid rgb(214, 122, 127);
+    height: 150px;
+    width: 100%;
+    background:#aadddd;
+    background: -moz-linear-gradient(right,rgb(96, 197, 236) 0%, #5ff8f8 70%);
+    background: -webkit-linear-gradient(left,rgb(96, 197, 236)  0%, #5ff8f8 70%);
+    background: linear-gradient(to right,rgb(96, 197, 236)  0%, #5ff8f8 70%);
+  }
+ 
+  h1{
+    margin-top: 50px; 
+  }
+ 
+  
+   a:link{
+    color:#FF90C4;
+  }
+   a:visited{
+    color: green;
+  }
+   a:hover{
+    color: #FFCC00;
+  }
+   a:active{
+      color: rgb(255, 0, 0);
+  }
+
+  p{
+   
+    margin-left: 20px; 
+  }
+ 
+  h2{
+    
+    margin-left: 20px; 
+  }
+  table {
+    table-layout: fixed;
+    margin-left:40px;margin-right:auto;
+    width: 40%;
+    
+    border: 2px solid black;
+  }
+  tbody tr:nth-child(even) {
+    background-color:#FF90C4;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #21F4CE
+  }
+  thead tr th{
+    
+    border: 3px solid rgb(228, 140, 154);
+  }
+  tbody td {
+    border: 1px solid black;
+    text-align: center;
+  }
+  footer {
+     height: 100px;
+      width: 100%;
+    position: absolute; 
+    bottom: 0px; 
+    text-align: left;
+    padding: 3px;
+    background-color: rgb(32, 24, 24);
+    border: 5px solid rgb(214, 122, 127);
+    color:  rgb(214, 122, 127);
+  }
+  
+ /*footer i{
+    
+    padding-bottom: 50px;
+    padding-left: 500px;
+
+ }*/
+ a[href^="https"]{
+     display: inline;
+     text-align: center;
+     
+
+ }
+
+  a[href^="https"]:link{
+    color:rgb(214, 122, 127);
+  }
+  a[href^="https"]:visited{
+    color:rgb(214, 122, 127);
+  }
+  a[href^="https"]:hover{
+    color:black;
+  }
+  .social{
+      text-align: center;
+     padding-left: 700px;
+  }
+ 
+  
+
+        
+  
+  
